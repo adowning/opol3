@@ -3,21 +3,25 @@
 
 <head>
   <meta charset="utf-8">
-  <title>opol3</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <title>admin-desktop</title>
+
   <% if (htmlWebpackPlugin.options.nodeModules) { %>
     <!-- Add `node_modules/` to global paths so `require` works properly in development -->
     <script>
       require('module').globalPaths.push('<%= htmlWebpackPlugin.options.nodeModules.replace(/\\/g, '\\\\') %>')
+    </script>
+    <!-- Set `__static` path to static files in production -->
+    <script>
+      if (process.env.NODE_ENV !== 'development') window.__static = require('path').join(__dirname, '/static').replace(/\\/g, '\\\\')
     </script>
     <% } %>
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
   <div id="app"></div>
-  <!-- Set `__static` path to static files in production -->
-  <script>
-    if (process.env.NODE_ENV !== 'development') window.__static = require('path').join(__dirname, '/static').replace(/\\/g, '\\\\')
-  </script>
+
+
 
   <!-- webpack builds are automatically injected -->
 </body>
