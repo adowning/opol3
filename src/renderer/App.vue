@@ -6,7 +6,7 @@
 //for git!
 <script>
 export default {
-	name: "opol3",
+  name: 'opol3'
 }
 </script>
 
