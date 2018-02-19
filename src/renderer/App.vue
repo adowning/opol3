@@ -3,13 +3,13 @@
     <router-view></router-view>
   </div>
 </template>
-
+//for git!
 <script>
-  export default {
-    name: 'opol3'
-  }
+export default {
+	name: "opol3",
+}
 </script>
 
 <style>
-  /* CSS */
+/* CSS */
 </style>
