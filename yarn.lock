@@ -77,39 +77,6 @@ acorn@^5.0.0, acorn@^5.2.1, acorn@^5.4.0, acorn@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.4.1.tgz#fdc58d9d17f4a4e98d102ded826a9b9759125102"
 
-admin-lte@^2.4.2:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/admin-lte/-/admin-lte-2.4.2.tgz#6a2928fa34715881eb69a09b64dbccc8d5fae539"
-  dependencies:
-    bootstrap "^3.3.7"
-    bootstrap-colorpicker "^2.5.1"
-    bootstrap-datepicker "^1.7.0"
-    bootstrap-daterangepicker "^2.1.25"
-    bootstrap-slider "^9.8.0"
-    bootstrap-timepicker "^0.5.2"
-    chart.js "1.0.*"
-    ckeditor "^4.7.0"
-    datatables.net "^1.10.15"
-    datatables.net-bs "^1.10.15"
-    fastclick "^1.0.6"
-    flot "^0.8.0-alpha"
-    font-awesome "^4.7.0"
-    fullcalendar "^3.4.0"
-    inputmask "^3.3.7"
-    ion-rangeslider "^2.2.0"
-    ionicons "^3.0.0"
-    jquery "^3.2.1"
-    jquery-knob "^1.2.11"
-    jquery-sparkline "^2.4.0"
-    jquery-ui "^1.12.1"
-    jvectormap "^1.2.2"
-    moment "^2.18.1"
-    morris.js "^0.5.0"
-    pace "0.0.4"
-    raphael "^2.2.7"
-    select2 "^4.0.3"
-    slimscroll "^0.9.1"
-
 ajv-keywords@^1.0.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/ajv-keywords/-/ajv-keywords-1.5.1.tgz#314dd0a4b3368fad3dfcdc54ede6171b886daf3c"
@@ -1425,58 +1392,6 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bootstrap-colorpicker@2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-colorpicker/-/bootstrap-colorpicker-2.5.1.tgz#fdf70646956f51e640b031f43f22dd868592ef4c"
-  dependencies:
-    jquery ">=1.10"
-
-bootstrap-colorpicker@^2.5.1:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/bootstrap-colorpicker/-/bootstrap-colorpicker-2.5.2.tgz#33bfb2043485f12dcb3df0f60ad171762cc3c0e4"
-  dependencies:
-    jquery ">=1.10"
-
-bootstrap-datepicker@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-datepicker/-/bootstrap-datepicker-1.7.0.tgz#d639be3fcade88bc9e6f16ef7e227e50580b7668"
-
-bootstrap-datepicker@^1.7.0:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/bootstrap-datepicker/-/bootstrap-datepicker-1.7.1.tgz#4ee7faf34888dbec7834fbf9dbe7c4277e01ddaf"
-  dependencies:
-    jquery ">=1.7.1 <4.0.0"
-
-bootstrap-daterangepicker@2.1.25:
-  version "2.1.25"
-  resolved "https://registry.yarnpkg.com/bootstrap-daterangepicker/-/bootstrap-daterangepicker-2.1.25.tgz#fcd8ba0b755a054d330d7a3b7c4dd8bb855cffb7"
-  dependencies:
-    jquery ">=1.10"
-    moment "^2.9.0"
-
-bootstrap-daterangepicker@^2.1.25:
-  version "2.1.30"
-  resolved "https://registry.yarnpkg.com/bootstrap-daterangepicker/-/bootstrap-daterangepicker-2.1.30.tgz#f893dbfff5a4d7dfaab75460e8ea6969bb89689a"
-  dependencies:
-    jquery ">=1.10"
-    moment "^2.9.0"
-
-bootstrap-slider@9.8.0:
-  version "9.8.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-slider/-/bootstrap-slider-9.8.0.tgz#b2ebde714a17553abeebf70249ac2d84c3072c13"
-
-bootstrap-slider@^9.8.0:
-  version "9.10.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-slider/-/bootstrap-slider-9.10.0.tgz#1103d6bc00cfbfa8cfc9a2599ab518c55643da3f"
-
-bootstrap-timepicker@0.5.2, bootstrap-timepicker@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/bootstrap-timepicker/-/bootstrap-timepicker-0.5.2.tgz#10ed9f2a2f0b8ccaefcde0fcf6a0738b919a3835"
-
-bootstrap@3.3.7, bootstrap@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
-
 boxen@^1.2.1:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-1.3.0.tgz#55c6c39a8ba58d9c61ad22cd877532deb665a20b"
@@ -1982,7 +1897,7 @@ charm@~0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/charm/-/charm-0.1.2.tgz#06c21eed1a1b06aeb67553cdc53e23274bac2296"
 
-chart.js@1.0.*, chart.js@1.0.2:
+chart.js@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/chart.js/-/chart.js-1.0.2.tgz#ad57d2229cfd8ccf5955147e8121b4911e69dfe7"
 
@@ -2045,10 +1960,6 @@ circular-json@^0.3.1:
 ckeditor@4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/ckeditor/-/ckeditor-4.7.0.tgz#79b0fe6067503883a572f99a3e72b19d3a567a1a"
-
-ckeditor@^4.7.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/ckeditor/-/ckeditor-4.8.0.tgz#5d450fa02a68d5a143cf5619754fbf0c04cad426"
 
 clap@^1.0.9:
   version "1.2.3"
@@ -2648,20 +2559,13 @@ datatables.net-bs@1.10.15:
     datatables.net ">=1.10.9"
     jquery ">=1.7"
 
-datatables.net-bs@^1.10.15:
-  version "1.10.16"
-  resolved "https://registry.yarnpkg.com/datatables.net-bs/-/datatables.net-bs-1.10.16.tgz#b0854f5b374f713ae3db4156c7cea8a760c3de76"
-  dependencies:
-    datatables.net "1.10.16"
-    jquery ">=1.7"
-
 datatables.net@1.10.15:
   version "1.10.15"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.15.tgz#c789077bbfe385e75ff5a233fa5f23251a72df68"
   dependencies:
     jquery ">=1.7"
 
-datatables.net@1.10.16, datatables.net@>=1.10.9, datatables.net@^1.10.15:
+datatables.net@>=1.10.9:
   version "1.10.16"
   resolved "https://registry.yarnpkg.com/datatables.net/-/datatables.net-1.10.16.tgz#4b052d1082824261b68eed9d22741b711d3d2469"
   dependencies:
@@ -3155,7 +3059,7 @@ electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30:
   version "1.3.33"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.33.tgz#bf00703d62a7c65238136578c352d6c5c042a545"
 
-electron@^1.7.5:
+electron@^1.8.1:
   version "1.8.2"
   resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.2.tgz#a817cd733c2972b3c7cc4f777caf6e424b88014d"
   dependencies:
@@ -3806,6 +3710,10 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
 
+faker@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-3.1.0.tgz#0f908faf4e6ec02524e54a57e432c5c013e08c9f"
+
 fast-deep-equal@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-1.0.0.tgz#96256a3bc975595eb36d82e9929d060d893439ff"
@@ -3822,7 +3730,7 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-fastclick@1.0.6, fastclick@^1.0.6:
+fastclick@1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/fastclick/-/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
 
@@ -3952,7 +3860,7 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
-flot@0.8.0-alpha, flot@^0.8.0-alpha:
+flot@0.8.0-alpha:
   version "0.8.0-alpha"
   resolved "https://registry.yarnpkg.com/flot/-/flot-0.8.0-alpha.tgz#9cbbc7147c10a47d2549db90bd2987ec1ba784ba"
 
@@ -3969,7 +3877,7 @@ follow-redirects@^1.2.3:
   dependencies:
     debug "^3.1.0"
 
-font-awesome@4.7.0, font-awesome@^4.7.0:
+font-awesome@4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.7.0.tgz#8fa8cf0411a1a31afd07b06d2902bb9fc815a133"
 
@@ -4119,13 +4027,6 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
 fullcalendar@3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/fullcalendar/-/fullcalendar-3.4.0.tgz#34dabff2abe5e85f70025c789a5b9dc3ea4c4762"
-  dependencies:
-    jquery "2 - 3"
-    moment "^2.9.0"
-
-fullcalendar@^3.4.0:
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/fullcalendar/-/fullcalendar-3.8.2.tgz#ef7dc77b89134bbe6163e51136f7a1f8bfc1d807"
   dependencies:
     jquery "2 - 3"
     moment "^2.9.0"
@@ -4484,6 +4385,10 @@ header-case@^1.0.0:
     no-case "^2.2.0"
     upper-case "^1.1.3"
 
+hideseek@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/hideseek/-/hideseek-0.7.1.tgz#0b85da72ce96911018bbd9c9d3450a5cd62695e8"
+
 highlight.js@^9.3.0:
   version "9.12.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
@@ -4757,10 +4662,6 @@ inputmask@3.3.7:
   version "3.3.7"
   resolved "https://registry.yarnpkg.com/inputmask/-/inputmask-3.3.7.tgz#4fbe01d3ec4e51f15a915aa90d7348e81f521c15"
 
-inputmask@^3.3.7:
-  version "3.3.11"
-  resolved "https://registry.yarnpkg.com/inputmask/-/inputmask-3.3.11.tgz#1421c94ae28c3dcd1b4d26337b508bb34998e2d8"
-
 inquirer@^0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/inquirer/-/inquirer-0.12.0.tgz#1ef2bfd63504df0bc75785fff8c2c41df12f077e"
@@ -4831,13 +4732,13 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ion-rangeslider@2.2.0, ion-rangeslider@^2.2.0:
+ion-rangeslider@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/ion-rangeslider/-/ion-rangeslider-2.2.0.tgz#388f12cd70593a61b3368fad6c4f30a5da8b97c9"
   dependencies:
     jquery ">=1.8"
 
-ionicons@3.0.0, ionicons@^3.0.0:
+ionicons@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-3.0.0.tgz#40b8daf4fd7a31150bd002160f66496e22a98c3c"
 
@@ -5215,29 +5116,13 @@ jest-docblock@^20.0.1:
   version "20.0.3"
   resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-20.0.3.tgz#17bea984342cc33d83c50fbe1545ea0efaa44712"
 
-jquery-knob@1.2.11, jquery-knob@^1.2.11:
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/jquery-knob/-/jquery-knob-1.2.11.tgz#f37c39dbc1c7a6a6c12cdb2ed4f6bffb683f10d6"
-
 jquery-mousewheel@~3.1.13:
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
 
-jquery-sparkline@2.4.0, jquery-sparkline@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/jquery-sparkline/-/jquery-sparkline-2.4.0.tgz#1be8b7b704dd3857152708aefb1d4a4b3a69fb33"
-
-jquery-ui@1.12.1, jquery-ui@^1.12.1:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/jquery-ui/-/jquery-ui-1.12.1.tgz#bcb4045c8dd0539c134bc1488cdd3e768a7a9e51"
-
-"jquery@2 - 3", jquery@>=1.10, jquery@>=1.5, jquery@>=1.7, "jquery@>=1.7.1 <4.0.0", jquery@>=1.8, jquery@^3.2.1:
+"jquery@2 - 3", jquery@>=1.5, jquery@>=1.7, jquery@>=1.8, jquery@^3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-
-jquery@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
@@ -5354,7 +5239,7 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
-jvectormap@1.2.2, jvectormap@^1.2.2:
+jvectormap@1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/jvectormap/-/jvectormap-1.2.2.tgz#2e4408b24a60473ff106c1e7243e375ae5ca85da"
   dependencies:
@@ -6071,11 +5956,11 @@ moment@2.18.1:
   version "2.18.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
-moment@^2.18.1, moment@^2.9.0:
+moment@^2.9.0:
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.20.1.tgz#d6eb1a46cbcc14a2b2f9434112c1ff8907f313fd"
 
-morris.js@0.5.0, morris.js@^0.5.0:
+morris.js@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/morris.js/-/morris.js-0.5.0.tgz#725767135cfae059aae75999bb2ce6a1c5d1b44b"
 
@@ -7306,7 +7191,7 @@ range-parser@^1.0.3, range-parser@~1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
 
-raphael@2.2.7, raphael@^2.2.7:
+raphael@2.2.7:
   version "2.2.7"
   resolved "https://registry.yarnpkg.com/raphael/-/raphael-2.2.7.tgz#231b19141f8d086986d8faceb66f8b562ee2c810"
   dependencies:
@@ -7864,13 +7749,6 @@ select2@4.0.3:
     almond "~0.3.1"
     jquery-mousewheel "~3.1.13"
 
-select2@^4.0.3:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/select2/-/select2-4.0.5.tgz#7aac50692561985b34d3b82ec55e226f8960d40a"
-  dependencies:
-    almond "~0.3.1"
-    jquery-mousewheel "~3.1.13"
-
 selfsigned@^1.9.1:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/selfsigned/-/selfsigned-1.10.2.tgz#b4449580d99929b65b10a48389301a6592088758"
@@ -8063,7 +7941,7 @@ slice-ansi@1.0.0:
   dependencies:
     is-fullwidth-code-point "^2.0.0"
 
-slimscroll@0.9.1, slimscroll@^0.9.1:
+slimscroll@0.9.1:
   version "0.9.1"
   resolved "https://registry.yarnpkg.com/slimscroll/-/slimscroll-0.9.1.tgz#f675cdc601d80ada20f16004d227d156fd1187b2"
   dependencies:
@@ -8989,6 +8867,10 @@ vm-browserify@0.0.4, vm-browserify@~0.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
+
+vue-date-picker@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/vue-date-picker/-/vue-date-picker-1.0.2.tgz#d8243dde3d3c37b550cbe4f88c8d4b0803128471"
 
 vue-electron@^1.0.6:
   version "1.0.6"

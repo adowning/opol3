@@ -1,74 +1,67 @@
-
 <template>
-  <div class="wrapper">
-    <MainHeader/>
-    <MainSidebar/>
-    <transition name="fade" mode="out-in">
-			
-      <router-view/>
-    </transition>
-    <MainFooter/>
-    <MainSetting/>
+  <div id="app">
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import MainHeader from './libs/MainHeader'
-import MainSidebar from './libs/MainSidebar'
-import MainFooter from './libs/MainFooter'
-import MainSetting from './libs/MainSetting'
+import Vue from 'vue'
 export default {
-  name: 'App',
-  components: {
-    MainHeader,
-    MainSidebar,
-    MainFooter,
-    MainSetting
+  created () {
+    Vue.http.interceptors.push((request, next) => {
+      next(response => {
+        this.handleResponse(response)
+        return response
+      })
+    })
+  },
+  methods: {
+    handleResponse (response) {
+      this.$store.dispatch('deleteAlert')
+      if (response.status >= 400) {
+        if (response.status === 401) {
+          this.handleUnauthorized()
+        } else if (response.status === 403) {
+          this.handleForbidden()
+        } else {
+          this.handleServerError(response)
+        }
+      } else {
+        if (response.data.status !== 0) {
+          this.handleApiError(response)
+        }
+      }
+    },
+    /**
+		 * @param response
+		 */
+    handleServerError (response) {
+      this._showAlert(response.statusText)
+    },
+    /**
+		 */
+    handleUnauthorized () {
+      this.$router.replace({ name: 'login' })
+    },
+    /**
+		 * @param response
+		 */
+    handleForbidden (response) {
+      this._showAlert(response.data.message)
+    },
+    /**
+		 * @param response
+		 */
+    handleApiError (response) {
+      this._showAlert(response.data.message)
+    },
+    /**
+		 * @param message
+		 * @private
+		 */
+    _showAlert (message) {
+      this.$store.dispatch('createAlert', { type: 'warning', message: message })
+    }
   }
 }
 </script>
-
-<style>
-/* body {
-	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
-		"Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-} */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: "Source Sans Pro", sans-serif;
-}
-
-#wrapper {
-	background: radial-gradient(
-		ellipse at top left,
-		rgba(255, 255, 255, 1) 40%,
-		rgba(229, 229, 229, 0.9) 100%
-	);
-	height: 100vh;
-	padding: 60px 80px;
-	width: 100vw;
-}
-/* H1 - H6 font */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
-		"Microsoft YaHei", "微软雅黑", Arial, sans-serif;
-}
-</style>

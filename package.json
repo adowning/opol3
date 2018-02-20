@@ -3,7 +3,6 @@
 	"version": "0.0.0",
 	"author": "ashdowning@gmail.com",
 	"description": "An electron-vue project",
-
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/adowning/opol3.git"
@@ -28,7 +27,9 @@
 		"directories": {
 			"output": "build"
 		},
-		"files": ["dist/electron/**/*"],
+		"files": [
+			"dist/electron/**/*"
+		],
 		"dmg": {
 			"contents": [
 				{
@@ -62,23 +63,18 @@
 		"vue-router": "^3.0.1",
 		"vuex": "^3.0.1",
 		"vuex-router-sync": "^5.0.0",
-
 		"prettier": "^1.7.4",
+		"pace": "0.0.4",
 		"prettier-eslint-cli": "^4.4.0",
-
+		"faker": "^3.1.0",
+		"hideseek": "^0.7.0",
 		"axios": "^0.16.1",
 		"vue-electron": "^1.0.6",
-		"admin-lte": "^2.4.2",
-		"bootstrap": "3.3.7",
-		"bootstrap-colorpicker": "2.5.1",
-		"bootstrap-datepicker": "1.7.0",
-		"bootstrap-daterangepicker": "2.1.25",
-		"bootstrap-slider": "9.8.0",
-		"bootstrap-timepicker": "0.5.2",
 		"chart.js": "1.0.2",
 		"ckeditor": "4.7.0",
 		"datatables.net": "1.10.15",
 		"datatables.net-bs": "1.10.15",
+		"vue-date-picker": "^1.0.2",
 		"fastclick": "1.0.6",
 		"flot": "0.8.0-alpha",
 		"font-awesome": "4.7.0",
@@ -86,14 +82,10 @@
 		"inputmask": "3.3.7",
 		"ion-rangeslider": "2.2.0",
 		"ionicons": "3.0.0",
-		"jquery": "3.2.1",
-		"jquery-knob": "1.2.11",
-		"jquery-sparkline": "2.4.0",
-		"jquery-ui": "1.12.1",
+		"jquery": "^3.3.1",
 		"jvectormap": "1.2.2",
 		"moment": "2.18.1",
 		"morris.js": "0.5.0",
-		"pace": "0.0.4",
 		"raphael": "2.2.7",
 		"select2": "4.0.3",
 		"slimscroll": "0.9.1"
@@ -148,7 +140,7 @@
 		"cfonts": "^1.1.3",
 		"del": "^3.0.0",
 		"devtron": "^1.4.0",
-		"electron": "^1.7.5",
+		"electron": "1.8.1",
 		"electron-builder": "^19.19.1",
 		"electron-devtools-installer": "^2.2.0",
 		"less": "^2.7.2",
