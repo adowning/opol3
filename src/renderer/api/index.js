@@ -14,6 +14,13 @@ export default {
     }
 
     var url = config.serverURI + uri
-    return axios({ method, url, data })
+    if (uri === '/login') {
+      url = config.serverURI + '/'
+      method = 'GET'
+      data = null
+      axios({ method, url, data }).then(response => { console.log(response) })
+    } else {
+      return axios({ method, url, data })
+    }
   }
 }

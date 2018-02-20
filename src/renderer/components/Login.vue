@@ -32,8 +32,8 @@ export default {
     return {
       section: 'Login',
       loading: '',
-      username: '',
-      password: '',
+      username: 't.jackson',
+      password: 'Andrews1',
       response: ''
     }
   },
