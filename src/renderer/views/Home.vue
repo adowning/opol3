@@ -1,7 +1,8 @@
 <template>
+  <div id="wrapper">
     <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
+    <!-- <div class="content-wrapper">
+     
         <section class="content-header">
             <h1>
                 {{$route.meta.title}}
@@ -11,17 +12,17 @@
                 <li><a href="#"><i class="fa fa-dashboard"></i> 首页</a></li>
                 <li class="active">这里</li>
             </ol>
-        </section>
+        </section> -->
 
         <!-- Main content -->
-        <section class="content container-fluid">
+        <!-- <section class="content container-fluid"> -->
 
             <!--------------------------
               | Your Page Content Here |
               -------------------------->
             {{$route.name}}({{$route.path}})
 
-        </section>
+        <!-- </section> -->
         <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->

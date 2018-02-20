@@ -36,8 +36,8 @@
                 <router-link tag="li" to="/">
                     <a><i class="fa fa-dashboard"></i> <span>桌面</span></a>
                 </router-link>
-                <router-link tag="li" to="/link2">
-                    <a><i class="fa fa-link"></i> <span>链接2</span></a>
+                <router-link tag="li" to="/landingpage">
+                    <a><i class="fa fa-link"></i> <span>Landing Page</span></a>
                 </router-link>
                 <li class="treeview">
                     <a href="#">

@@ -2,6 +2,7 @@ import Vue from "vue"
 import Router from "vue-router"
 
 import Home from "../views/Home.vue"
+import LandingPage from "../components/LandingPage.vue"
 
 Vue.use(Router)
 
@@ -17,11 +18,11 @@ export default new Router({
 			},
 		},
 		{
-			path: "/link2",
-			name: "Link2",
-			component: Home,
+			path: "/Landingpage",
+			name: "LandingPage",
+			component: LandingPage,
 			meta: {
-				title: "链接2",
+				title: "LandingPage",
 			},
 		},
 		{

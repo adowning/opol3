@@ -2,12 +2,12 @@
   <div id="wrapper">
     <img id="logo" src="~@/assets/logo.png" alt="electron-vue">
     <main>
-      <div class="left-side">
+      <!-- <div class="left-side">
         <span class="title">
           Welcome to your new project!
         </span>
         <system-information></system-information>
-      </div>
+      </div> -->
 
       <div class="right-side">
         <div class="doc">
