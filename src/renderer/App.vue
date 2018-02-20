@@ -1,30 +1,30 @@
 
 <template>
-    <div class="wrapper">
-        <MainHeader></MainHeader>
-        <MainSidebar></MainSidebar>
-        <transition name="fade" mode="out-in">
+  <div class="wrapper">
+    <MainHeader/>
+    <MainSidebar/>
+    <transition name="fade" mode="out-in">
 			
-            <router-view></router-view>
-        </transition>
-        <MainFooter></MainFooter>
-        <MainSetting></MainSetting>
-    </div>
+      <router-view/>
+    </transition>
+    <MainFooter/>
+    <MainSetting/>
+  </div>
 </template>
 
 <script>
-import MainHeader from "./libs/MainHeader"
-import MainSidebar from "./libs/MainSidebar"
-import MainFooter from "./libs/MainFooter"
-import MainSetting from "./libs/MainSetting"
+import MainHeader from './libs/MainHeader'
+import MainSidebar from './libs/MainSidebar'
+import MainFooter from './libs/MainFooter'
+import MainSetting from './libs/MainSetting'
 export default {
-	name: "App",
-	components: {
-		MainHeader,
-		MainSidebar,
-		MainFooter,
-		MainSetting,
-	},
+  name: 'App',
+  components: {
+    MainHeader,
+    MainSidebar,
+    MainFooter,
+    MainSetting
+  }
 }
 </script>
 

@@ -1,0 +1,42 @@
+{
+  "extends": ["eslint:recommended", "plugin:vue/recommended"],
+  "root": true,
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "__static": true,
+    "require": true,
+    "process": true,
+    "global": true
+  },
+  "rules": {
+    "vue/max-attributes-per-line": [
+      10,
+      {
+        "singleline": 1,
+        "multiline": {
+          "max": 1,
+          "allowFirstLine": false
+        }
+      }
+    ],
+    "import/no-unresolved": 0,
+    "import/no-unassigned-import": 0,
+    "semi": ["error", "never"],
+    "no-console": "off",
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "always",
+        "named": "always",
+        "asyncArrow": "always"
+      }
+    ]
+  }
+}

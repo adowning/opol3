@@ -1,1 +1,11 @@
-*
+/build/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/templates/**
+/tests/bench/**
+/tests/fixtures/**
+/tests/performance/**
+/tmp/**
+/src/main/**
+/src/renderer/main.js

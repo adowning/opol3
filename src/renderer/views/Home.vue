@@ -14,22 +14,22 @@
             </ol>
         </section> -->
 
-        <!-- Main content -->
-        <!-- <section class="content container-fluid"> -->
+    <!-- Main content -->
+    <!-- <section class="content container-fluid"> -->
 
-            <!--------------------------
+    <!--------------------------
               | Your Page Content Here |
               -------------------------->
-            {{$route.name}}({{$route.path}})
+    {{ $route.name }}({{ $route.path }})
 
-        <!-- </section> -->
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+    <!-- </section> -->
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
 </template>
 
 <script>
 export default {
-	name: "Home",
+  name: 'Home'
 }
 </script>
